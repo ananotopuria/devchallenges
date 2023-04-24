@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
-    <title>Document</title>
+    <title>Interior</title>
 </head>
 <body>
-    
+    <header class="header container">
+        <p class="header__logo">This Interior</p>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-link"><a href="#">Home</a></li>
+                <li class="header__nav-link"><a href="#">Collection</a></li>
+                <li class="header__nav-link"><a href="#">About</a></li>
+                <li class="header__nav-link"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hero__section container">
+        <div class="hero__section-col">
+            <h1 class="hero__section-col-title">Modern interior</h1>
+            <p class="hero__section-col-txt">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+            <button class="btn">Read more &rarr;</button>
+        </div>
+        <div class="hero__section-col second-col">
+            <img src="img/photo1.png" alt="modern interior design" class="hero__section-col-img">
+            <div class="card">
+                <div class="card__author">
+                    <img src="img/photo2.png" alt="aliza webber" class="card__author-img">
+                    <p class="card__author-name">Aliza Webber</p>
+                    <p class="card__author-position">Interior designer</p>
+                </div>
+                <h2 class="card__title">Designed in 2020 by Aliza Webber</h2>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__txt">created by Anano Topuria - devChallenges.io</p>
+    </footer>
 </body>
 </html>
